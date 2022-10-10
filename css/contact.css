@@ -1,0 +1,107 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/384357.jpg');
+    background-size: 100%;
+    color: white;
+}
+p{
+    margin-bottom: 20px;
+}
+img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.qwq{
+    rotate: 30deg;
+}
+.msm{
+    margin-top: 30%;
+    width: 220px;
+    height: 35px;
+    position: relative;
+    animation: winm 5s infinite;
+}
+@keyframes winm{
+    0%{right: -20px;background-color: red;}
+    25%{right: -200px;background-color: yellow;}
+    50%{right: -400px;background-color: lightgreen;}
+    75%{right: -600px;background-color: lightblue;}
+    100%{right: -820px;background-color: gray;}
+}
+#embed{
+    float: right;
+    position: relative;
+}
+.uom{
+    float: right;
+    position: fixed;
+    background-color: rgb(210, 176, 176);
+    border-radius: 50%;
+    padding: 1%;
+}
+.won{
+    animation: won 1s infinite;
+}
+.mon{
+    animation: mon 1s infinite;
+}
+@keyframes won{
+    0%{color: rgb(24, 43, 43); border: 1px solid;border-image: linear-gradient(to left,rgb(5, 5, 69),rgb(119, 200, 225),rgb(7, 7, 67));}
+    25%{color: cyan; border: 1px solid;border-image: linear-gradient(to left,rgb(10, 67, 35),rgb(119, 225, 175),rgb(7, 67, 41));}
+    50%{color: rgb(8, 47, 17); border: 1px solid;border-image: linear-gradient(to left,rgb(5, 48, 69),rgb(96, 157, 176),rgb(20, 20, 75));}
+    75%{color: rgb(99, 63, 88); border: 1px solid;border-image: linear-gradient(to left,rgb(71, 15, 86),rgb(231, 151, 218),rgb(68, 5, 43));}
+    100%{color: rgb(57, 13, 38); border: 1px solid;border-image: linear-gradient(to left,rgb(66, 6, 56),rgb(225, 153, 184),rgb(25, 13, 24));}
+}
+@keyframes mon{
+    0%{color: cyan; border: 1px solid;border-image: linear-gradient(to left,rgb(10, 67, 35),rgb(119, 225, 175),rgb(7, 67, 41));}
+    25%{color: rgb(57, 13, 38); border: 1px solid;border-image: linear-gradient(to left,rgb(66, 6, 56),rgb(225, 153, 184),rgb(25, 13, 24));}
+    50%{color: rgb(24, 43, 43); border: 1px solid;border-image: linear-gradient(to left,rgb(5, 5, 69),rgb(119, 200, 225),rgb(7, 7, 67));}
+    75%{color: rgb(99, 63, 88); border: 1px solid;border-image: linear-gradient(to left,rgb(71, 15, 86),rgb(231, 151, 218),rgb(68, 5, 43));}
+    100%{color: rgb(8, 47, 17); border: 1px solid;border-image: linear-gradient(to left,rgb(5, 48, 69),rgb(96, 157, 176),rgb(20, 20, 75));}
+    
+}
+body{
+    background-color: rgb(106, 88, 82);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.input{
+    background-color: coral;
+    float: right;
+}
+.call{
+    animation: call 1s infinite;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    position: absolute;
+}
+@keyframes call{
+    0%{opacity: 0.1;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1.0;}
+}
+.gmail{
+    animation: gmail 1s infinite;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    position: absolute;
+}
+@keyframes gmail{
+    0%{opacity: 0.1;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1.0;}
+}
+.personal{
+    animation: perso 1s infinite;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    position: absolute;
+}
+@keyframes perso{
+    0%{opacity: 0.1;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1.0;}
+}
+#div{
+    display: none;
+}
