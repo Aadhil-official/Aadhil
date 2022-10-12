@@ -103,8 +103,8 @@ li a.nm:hover{
 
 @keyframes rotation 
 { 
-    0% { transform: rotate(0deg);margin-left: 900%; }
-    100%{ transform: rotate(-359deg); margin-left: 0%;} 
+    0% { transform: rotate(0deg);margin-left: 995%; }
+    100%{ transform: rotate(-524deg); margin-left: -115%;} 
 }
 #aboutme{
     margin-right: 0px;

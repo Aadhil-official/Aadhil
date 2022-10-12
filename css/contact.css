@@ -2,6 +2,7 @@ body{
     background-image: url('https://wallpaperaccess.com/full/384357.jpg');
     background-size: 100%;
     color: white;
+    background-attachment: fixed;
 }
 p{
     margin-bottom: 20px;
@@ -15,7 +16,6 @@ img{
     rotate: 30deg;
 }
 .msm{
-    margin-top: 30%;
     width: 220px;
     height: 35px;
     position: relative;
@@ -34,11 +34,10 @@ img{
 }
 .uom{
     float: right;
-    position: fixed;
     background-color: rgb(210, 176, 176);
     border-radius: 50%;
     padding: 1%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 .won{
     animation: won 1s infinite;
@@ -105,6 +104,7 @@ body{
 }
 #div{
     display: none;
+    float: left;
 }
 ul {
     list-style-type: none;
@@ -133,4 +133,22 @@ li a {
     }
     .mm{
         background-color: black;
+    }
+    .imgposition{
+        background: rgba(246, 243, 241, 0.8);
+        height: 80%;
+        width: 30%;
+        margin-left: 70%;
+        margin-top: 0%;
+        margin-bottom: 30%;
+        position: absolute;
+    }
+    .more{
+        margin-top: 45%;
+        margin-left: 20%;
+    }
+    .movetop{
+        width: 50%;
+        height: 100%;
+
     }
